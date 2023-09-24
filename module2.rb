@@ -22,7 +22,7 @@ class Drink
 end
 
 #引数にカフェモカが渡されて、whipped_creamメソッドにて＠nameに代入
-drink = Drink.new("カフェモカ") 
+drink = Drink.new("コーヒー") 
 drink.whipped_cream
 #whipped_creamが呼び出されて＠nameの末尾にホイップクリームが追加
 
