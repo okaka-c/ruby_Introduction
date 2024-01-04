@@ -12,9 +12,17 @@ class User
     @name = value
   end
 
+  def petname(cat, dog)
+    puts cat
+    puts dog
+  end
+
 end
 
 user = User.new("らんてくん")
 puts user.name  #=> らんてくん
 user.name = "おかかチーズ" #メソッドname=(value)を呼び出している
 puts user.name #=> おかかチーズ
+
+
+user.petname("タマ","ポチ")
